@@ -8,7 +8,6 @@
     android:layout_margin="8dp"
     tools:context="com.jorgeazzufranco.aboutme.MainActivity">
 
-
     <ImageView
         android:id="@+id/jorgito"
         android:layout_width="150dp"
@@ -16,6 +15,25 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         app:srcCompat="@drawable/jorgito" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:text="@string/nombre"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:textColor="#333"
+        android:textSize="24sp"
+        android:text="Ingeniero Informatico"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
