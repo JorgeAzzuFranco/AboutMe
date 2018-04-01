@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/jorgito" />
+        app:srcCompat="@drawable/jorge" />
 
     <TextView
         android:layout_width="match_parent"
