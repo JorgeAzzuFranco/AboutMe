@@ -120,7 +120,7 @@
             android:textColor="#000"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:text="Powered by: Jorge Franco"/>
+            android:text="@string/powered"/>
 
     </RelativeLayout>
 </LinearLayout>
