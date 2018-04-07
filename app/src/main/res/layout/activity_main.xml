@@ -17,6 +17,7 @@
         app:srcCompat="@drawable/jorge" />
 
     <TextView
+        android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -26,6 +27,7 @@
         android:text="@string/nombre"/>
 
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -36,19 +38,21 @@
 
 
     <LinearLayout
+        android:id="@+id/git"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center">
 
         <ImageView
-            android:id="@+id/github"
+            android:id="@+id/foto"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginLeft="4dp"
             app:srcCompat="@drawable/github" />
 
         <TextView
+            android:id="@+id/github"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
@@ -64,6 +68,7 @@
             app:srcCompat="@drawable/twitter" />
 
         <TextView
+            android:id="@+id/twitter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
@@ -86,6 +91,7 @@
             android:src="@drawable/gmail"/>
 
         <TextView
+            android:id="@+id/correo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
@@ -100,6 +106,7 @@
             android:src="@drawable/telefono"/>
 
         <TextView
+            android:id="@+id/telefono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
@@ -114,13 +121,23 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:textColor="#000"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:text="@string/powered"/>
+            android:text="@string/powered"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Share"
+            android:onClick="compartir"/>
 
     </RelativeLayout>
 </LinearLayout>
